@@ -19,7 +19,6 @@ public class TabDemoLayoutActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Distance Converter"));
         tabLayout.addTab(tabLayout.newTab().setText("Tip Calculator"));
         tabLayout.addTab(tabLayout.newTab().setText("Temperature Converter"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 4 Item"));
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         final PagerAdapter adapter = new TabPagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
